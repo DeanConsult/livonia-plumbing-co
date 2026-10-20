@@ -30,6 +30,7 @@
     "name": "Livonia Plumbing Services",
     "url": "https://www.livoniaplumbingco.com",
     "telephone": "+17345403003",
+    "image": ["https://www.livoniaplumbingco.com/images/istockphoto-1412399528-612x612.jpg"],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "34133 Schoolcraft",
@@ -41,7 +42,10 @@
     "description": "Residential and commercial plumbing repair and installation in Livonia MI and Metro Detroit. 20+ years experience. 24-hour emergency service.",
     "areaServed": ["Livonia MI", "Metro Detroit", "Wayne County", "Westland", "Farmington Hills", "Dearborn", "Canton", "Plymouth", "Novi"],
     "priceRange": "$$",
-    "openingHours": "Mo-Su 00:00-24:00",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "21:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "18:00" }
+    ],
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "42.381643",
